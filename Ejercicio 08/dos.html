@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <script>
+        var largo = prompt("Ingresa el largo del rectángulo:");
+        var ancho = prompt("Ingresa el ancho del rectángulo:");
+        largo = parseFloat(largo);
+        ancho = parseFloat(ancho);
+
+        var perimetro = 2 * (largo + ancho);
+        var area = largo * ancho;
+    </script>
+</head>
+<body>
+    <script>
+        document.write("<p>El perímetro del rectángulo es: " + perimetro + "</p>");
+        document.write("<p>El área del rectángulo es: " + area + "</p>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+h1 {
+    text-align: center;
+}
+
+
+.columns {
+    display: flex;
+    gap: 20px;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
+.column1 {
+    width: 25%;
+    padding: 10px;
+}
+
+
+.column2 {
+    flex: 1;
+    padding: 10px;
+}
+
+
+#personajes {
+    border: 4px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+ul {
+    column-count: 2;
+    column-gap: 20px;
+    list-style-position: inside;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <script>
+        var numeroAleatorio = Math.floor(Math.random() * 11);
+        var adivinado = false;
+
+        while (!adivinado) {
+            var intento = prompt("Adivina el número entre 0 y 10:");
+            intento = parseInt(intento);
+
+            if (intento < numeroAleatorio) {
+                alert("Tu número es menor.");
+            } else if (intento > numeroAleatorio) {
+                alert("Tu número es mayor.");
+            } else {
+                alert("¡Adivinaste el número!");
+                adivinado = true;
+            }
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

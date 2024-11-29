@@ -1,0 +1,56 @@
+.titulo{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.titulo3{
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#rojo{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:2 cm;
+
+}
+
+#amarillo{
+    color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#amarillo em{
+    color: red;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#celeste{
+    color: rgb(69, 188, 228);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#celeste em{
+    color: rgb(32, 32, 139);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#azul{
+    color: rgb(63, 63, 248);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#rosa{
+    color: rgb(211, 112, 128);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+

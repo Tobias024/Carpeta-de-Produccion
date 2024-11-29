@@ -1,0 +1,20 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+#div1{
+    background-color: #fedfe0;
+}
+#div2{
+    background-color: #a1f5fd;
+}
+#div3{
+    background-color: #bee9e3;
+}
+
+.title{
+    font-style: bolder;
+    font-size: 30px;
+}
+

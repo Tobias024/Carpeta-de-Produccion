@@ -23,6 +23,18 @@ header h1 {
     color: #F4F7FC;
 }
 
+#ejercicios, #pefil {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#contacto {
+    text-align: left;
+    margin-left: 50px;
+}
+#contacto ul{
+    text-align: center;
+}
+
 /* ENCABEZADO */
 header {
     top: 0;
@@ -66,7 +78,7 @@ header nav ul li {
 
 }
 
-/* CARDS */
+/* cards */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -126,3 +138,31 @@ footer ul li{
     margin: 0 35px;
 }
 
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    }
+    main {
+        margin-top: 20px;
+    }}
+
+
+/*Indices de ejercicios*/
+.header-ejercicios {
+    text-align: left;
+    
+}
+
+.header-ejercicios li {
+    text-decoration: none;
+    text-align: center;
+
+}
+/*.main-ejercicios {
+    
+}/*

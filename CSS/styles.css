@@ -6,8 +6,9 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+
 html {
-    scroll-padding-top: 200px; 
+    scroll-padding-top: 200px;
 }
 
 main {
@@ -15,23 +16,31 @@ main {
 }
 
 a:focus {
-    outline: 3px solid #FFD700; 
-    outline-offset: 2px; }
+    outline: 3px solid #FFD700;
+    outline-offset: 2px;
+}
 
 header h1 {
     font-size: 40px;
     color: #F4F7FC;
 }
 
-#ejercicios, #pefil {
+#ejercicios {
     margin-top: 50px;
     margin-left: 50px;
 }
+
+#perfil {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 #contacto {
     text-align: left;
     margin-left: 50px;
 }
-#contacto ul{
+
+#contacto ul {
     text-align: center;
 }
 
@@ -53,7 +62,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #1abc22 ;
+    color: #1abc22;
 }
 
 header p {
@@ -104,9 +113,9 @@ header nav ul li {
 }
 
 .card:hover {
-    background: #263845 ;
+    background: #263845;
     transform: scale(1.05);
-    color:#1abc22 !important;
+    color: #1abc22 !important;
     transition: 0.3s ease;
 }
 
@@ -125,18 +134,32 @@ footer h3 {
     color: #FFCFEF;
     align-items: center;
 }
+
 footer a {
     color: #FFCFEF;
 }
 
 footer a:hover {
-    color: #1abc22 ;
+    color: #1abc22;
 }
-footer ul li{
+
+footer ul li {
     list-style-type: circle;
     display: inline;
     margin: 0 35px;
 }
+    /*Indices de ejercicios*/
+    .header-ejercicios {
+        text-align: left;
+
+    }
+
+    .header-ejercicios li {
+        text-decoration: none;
+        text-align: center;
+        margin-left: 0px;
+
+    }
 
 @media (max-width: 768px) {
     header {
@@ -147,22 +170,25 @@ footer ul li{
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
     }
+
     main {
         margin-top: 20px;
-    }}
 
+    }
 
-/*Indices de ejercicios*/
-.header-ejercicios {
-    text-align: left;
+    #contacto li {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #contacto ul {
+        text-align: center;
+        padding-left: 0px;
+    }
     
 }
 
-.header-ejercicios li {
-    text-decoration: none;
-    text-align: center;
 
-}
-/*.main-ejercicios {
+    /*.main-ejercicios {
     
 }/*
